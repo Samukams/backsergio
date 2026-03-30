@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Funcionário</title>
+
+</head>
+<body>
+    <h1>Cadastrar Funcionário</h1>
+    <form id="formFunc">
+        <label>Nome:
+            <input type="test" id="nome" required placeholder="nome">
+        </label>
+        <br><br>
+        <label>Setor:
+            <input type="text" id="setor" required placeholder="Código Setor">
+        </label>
+        <br><br>
+         <label>Salário:
+            <input type="text" id="salario" required placeholder="salário">
+        </label>
+        <br><br>
+         <label>E-mail:
+            <input type="text" id="email" required placeholder="e-mail">
+        </label>
+        <br><br>
+         <label>Senha:
+            <input type="password" id="senha" required placeholder="senha">
+        </label>
+        <br><br>
+        <button type="submit">Salvar</button>
+        <br><br>
+    </form>
+    <button id="listaFunc">Listar Funcionários</button>
+
+    <input type="number" id="idDelete" placeholder="ID do funcionário para deletar">
+    <button type="button" id="deletarFunc">Deletar Funcionário</button>
+
+    <div id="msg"></div>
+    <br><br>
+    <script src="front.js"></script>
+</body>
+</html>
